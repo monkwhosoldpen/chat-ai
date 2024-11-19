@@ -5,7 +5,7 @@ import { customMiddleware } from './custom-middleware';
 
 export const customModel = (apiIdentifier: string) => {
   return wrapLanguageModel({
-    model: groq(apiIdentifier),
+    model: groq('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'),
     middleware: customMiddleware,
   });
 };
