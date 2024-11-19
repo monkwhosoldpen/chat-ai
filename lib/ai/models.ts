@@ -20,6 +20,12 @@ export const models: Array<Model> = [
     apiIdentifier: 'gpt-4o',
     description: 'For complex, multi-step tasks',
   },
+  {
+    id: 'Groq',
+    label: 'Groq',
+    apiIdentifier: 'llama3-8b-8192',
+    description: 'Grok',
+  },
 ] as const;
 
 export const DEFAULT_MODEL_NAME: string = 'gpt-4o-mini';
